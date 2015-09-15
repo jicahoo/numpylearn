@@ -2,3 +2,5 @@
 ###2. How to use numpy?
 ###3. Some concepts on numpy?
 ###4. Some diagram or table about numpy?
+
+Except logs&milestones, other folders may have some helpful info for you.
