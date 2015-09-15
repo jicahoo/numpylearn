@@ -1,5 +1,5 @@
-##1. Error
-###Message:
+##1. Error: RuntimeError: Running cythonize failed!
+###1.1 Message:
     Running from numpy source directory.
     
     Cythonizing sources
@@ -52,8 +52,8 @@
 
         RuntimeError: Running cythonize failed!
 
-###Command: 
+###1.2 Command: 
 python setup.py build --fcompiler=gnu
 
-###Reason:  
+###1.3 Reason:  
 Numpy has some code written by Cython language (like numpy/random/mtrand/mtrand.pyx), the expected compiler of Cython was missed. you have to install Cython to fix this issue.
