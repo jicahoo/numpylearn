@@ -3,5 +3,7 @@ Follow the instructions in https://github.com/numpy/numpy/blob/master/INSTALL.tx
 You have to make sure you have install Cython and GFortran.
 ###2. Build Log
 Get the build log and analyze it, you will see all things in the numpy.
+###3. Use Case Study
+ The call stack of one simple example of ndarray*ndarray.
 
 

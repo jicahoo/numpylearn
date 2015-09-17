@@ -4,6 +4,13 @@ BLAS, LAPACK, ATLAS
 1. BLAS: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
 2. http://stackoverflow.com/questions/17858104/what-is-the-relation-between-blas-lapack-and-atlas
 
+BLAS   ---> LAPACK
+            
+ATLAS ---> LAPACK
+
+ATLAS is implementation of BLAS APIs used by LAPACK.
+
+BLAS: vector, matrix*vector, matrix*matrix
 
 Cython. Numpy use C code, so need Cython to interact between Python and C code.
 
